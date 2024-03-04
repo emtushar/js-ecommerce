@@ -49,6 +49,7 @@ main{
     background-color: #ffffff;
     justify-content: space-between;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .product-image{
     object-fit:scale-down ;
@@ -75,7 +76,8 @@ main{
 
 .product:hover{
     cursor: pointer;
-    transform: scale(1.5);
+    transform: scale(1.1);
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
 }
 
 
